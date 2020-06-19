@@ -6,5 +6,8 @@ class Post
     @title
   end 
   
+  def author 
+    self.author.title 
+  end 
   
 end 
